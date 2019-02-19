@@ -34,8 +34,9 @@ while(True):
     else:
         lockCounter = lockCounter + 1
 
-    # This variable determines how many frames pass without a face before Mac locks
+    # This value determines how many frames pass without a face before Mac locks
     if lockCounter >= 10:
+        # I tried to avoid using shell=True here but I could not find a way around it.
         subprocess.call('/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend',
             shell=True)
         sys.exit()

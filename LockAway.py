@@ -10,7 +10,6 @@ import sys
 # Set up variables
 cap = cv2.VideoCapture(0)
 lockCounter = 0
-faceDetected = False
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') 
 
 while(True):

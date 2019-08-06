@@ -2,6 +2,8 @@
 
 This computationally expensive and impractical program locks your MacBook when you walk away from it.
 
+EDIT 08/06/19: https://9to5mac.com/2019/08/06/face-id-on-macs-2/
+
 ## Overview
 
 Apple is rumored to release a new generation of MacBook Pro computers soon. It is of my prdiction that the company will switch from TouchID to FaceID on the new rigs and this program is how I believe they could implement an optional feature to lock a users Mac when not in use. Using FaceID, the computer could keep tabs on if the owner or any registerd faces are currently working on the laptop, and if not, lock the screen until the user is back in front of it.
